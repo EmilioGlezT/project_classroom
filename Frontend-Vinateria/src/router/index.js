@@ -5,6 +5,7 @@ import TestScreen from '../views/TestScreen.vue'
 import CreateProduct from '../views/CreateProduct.vue'
 import CreateSupplier from '../views/CreateSupplier.vue'
 import EditProduct from '../views/EditProduct.vue'
+import EditSupplier from '../views/EditSupplier.vue'
 
 const routes = [
 	{
@@ -47,6 +48,11 @@ const routes = [
 		name: 'edit-product',
 		path: '/edit-product/:id',
 		component: EditProduct
+	},
+	{
+		name: 'edit-provider',
+		path: '/edit-provider/:id',
+		component: EditSupplier
 	},
 ]
 

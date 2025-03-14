@@ -2,12 +2,14 @@
 	<main>
 		<NavbarDropdown></NavbarDropdown>
 
-		
+		<section class="MT-4">
+			<h1 class="text-3xl font-semibold text-gray-800 dark:text-gray-200">Proveedores</h1>
+			<Proveedores></Proveedores>
+		</section>
+
 		<section>
 			<Productos></Productos>
 		</section>
-		
-		
 
 		<section>
 		</section>
@@ -21,8 +23,7 @@
 	import { useRouter } from 'vue-router'
 	import Pill from '@/components/Pill.vue'
 	import Productos from '../components/Productos.vue'
-	
-
+	import Proveedores from '../components/Proveedores.vue'
 	import Footer from '@/components/Footer.vue'
 	import NavbarDropdown from '../components/NavBar.vue'
 	

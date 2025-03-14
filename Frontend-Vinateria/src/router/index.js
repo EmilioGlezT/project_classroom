@@ -5,6 +5,9 @@ import TestScreen from '../views/TestScreen.vue'
 import CreateProduct from '../views/CreateProduct.vue'
 import CreateSupplier from '../views/CreateSupplier.vue'
 import EditProduct from '../views/EditProduct.vue'
+import CreateClient from '../views/CreateClient.vue'
+import CreateEmpleoyee from '../views/CreateEmpleoyee.vue'
+import CreateSell from '../views/CreateSell.vue'
 
 const routes = [
 	{
@@ -48,6 +51,21 @@ const routes = [
 		path: '/edit-product/:id',
 		component: EditProduct
 	},
+	{
+		name: 'create-client',
+		path: '/create-client',
+		component: CreateClient
+	},
+	{
+		name: 'create-employee',
+		path: '/create-employee',
+		component: CreateEmpleoyee
+	},
+	{
+		name: 'create-sale',
+		path: '/create-sale',
+		component: CreateSell
+	}
 ]
 
 const router = createRouter({

@@ -117,7 +117,7 @@ const submitForm = async () => {
     loading.value = true;
     try {
         const response = await axios.post("http://localhost:8080/product/create", formData.value);
-        console.log("Producto creado:", response.data);
+        //console.log("Producto creado:", response.data);
         alert("Producto creado exitosamente");
 
         // Reiniciar formulario después de la creación

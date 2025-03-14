@@ -43,7 +43,6 @@
 const obtenerProductos = async () => {
   try {
     const respuesta = await axios.get("http://localhost:8080/product"); // Reemplaza con tu API real
-    console.log("Resúesta :: ", respuesta)
     // productos.value = respuesta.data._embedded.product;
     productos.value = respuesta.data._embedded.product.map((p, index) => ({
         id: p._links.self.href.split('/').pop(), // Extrae el ID desde la URL

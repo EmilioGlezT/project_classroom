@@ -2,17 +2,33 @@
 	<main>
 		<NavbarDropdown></NavbarDropdown>
 
+		<section class="MT-4">
+			<h1 class="text-3xl font-semibold text-gray-800 dark:text-gray-200">Proveedores</h1>
+			<Proveedores></Proveedores>
+		</section>
 		
-		<section>
+		<section class="mt-4">
+			<h1 class="text-3xl font-semibold text-gray-800 dark:text-gray-200">Productos</h1>
 			<Productos></Productos>
 		</section>
+
+		<section class="mt-4">
+			<h1 class="text-3xl font-semibold text-gray-800 dark:text-gray-200">Clientes</h1>
+			<Clientes></Clientes>
+		</section>
 		
-		
+		<section class="mt-4">
+			<h1 class="text-3xl font-semibold text-gray-800 dark:text-gray-200">Empleados</h1>
+			<Empleados></Empleados>
+		</section>
+
+		<section class="mt-4">
+			<h1 class="text-3xl font-semibold text-gray-800 dark:text-gray-200">Ventas</h1>
+			<Ventas></Ventas>
+		</section>
 
 		<section>
 		</section>
-
-		<Footer />
 	</main>
 </template>
 
@@ -25,6 +41,10 @@
 
 	import Footer from '@/components/Footer.vue'
 	import NavbarDropdown from '../components/NavBar.vue'
+import Clientes from '../components/Clientes.vue'
+import Empleados from '../components/Empleados.vue'
+import Proveedores from '../components/Proveedores.vue'
+import Ventas from '../components/Ventas.vue'
 	
 	const count = useCount()
 	const router = useRouter()

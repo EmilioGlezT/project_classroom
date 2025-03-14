@@ -23,6 +23,15 @@
           <li>
             <a href="/create-supplier" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Crear proovedor</a>
           </li>
+          <li>
+            <a href="/create-client" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Crear cliente</a>
+          </li>
+          <li>
+            <a href="/create-employee" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Crear empleado</a>
+          </li>
+          <li>
+            <a href="/create-sale" class="block py-2 px-3 text-gray-900 rounded-sm hover:bg-gray-100 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-white">Crear venta</a>
+          </li>
         </ul>
       </div>
     </div>
